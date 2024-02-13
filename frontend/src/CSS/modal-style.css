@@ -1,0 +1,38 @@
+.modal-form {
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(210, 210, 210);
+    width: fit-content;
+}
+
+.blur-background {
+    filter: blur(1.5px);
+}
+
+.user-data {
+    font-weight: bold;
+}
+
+.modal-buttons {
+    text-align: center;
+}
+
+.button-confirm {
+    background-color: rgb(60, 160, 255);
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.button-cancel {
+    margin-left: 20px;
+    background-color: rgb(200, 60, 60);
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

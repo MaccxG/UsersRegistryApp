@@ -3,6 +3,8 @@ import axios from 'axios'
 import ConfirmationModal from './modals/ConfirmationModal'
 import FeedbackModal from './modals/FeedbackModal'
 
+import '../../CSS/user-create-update-delete-style.css'
+
 function DeleteUser() {
   const [formData, setFormData] = useState({
     id: '',

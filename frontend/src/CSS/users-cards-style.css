@@ -1,0 +1,31 @@
+.container-users-cards {
+    margin: 50px;
+    width: fit-content;
+    margin-bottom: 100px;
+}
+
+.card-user {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(210, 222, 232);
+    
+}
+
+.card-name-lastName {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card-email-label {
+    color: #333;
+}
+
+.card-email {
+    font-weight: bold;
+    font-family: consolas;
+    color: #333;
+}

@@ -1,5 +1,7 @@
 import Modal from 'react-modal'
 
+import '../../../CSS/modal-style.css'
+
 const FeedbackModal = ({ isOpen, onRequestClose, feedbackMessage }) => {
   return (
     <Modal

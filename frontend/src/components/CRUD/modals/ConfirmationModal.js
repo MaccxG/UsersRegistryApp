@@ -1,6 +1,8 @@
 import Modal from 'react-modal'
 import { useState, useEffect } from 'react';
 
+import '../../../CSS/modal-style.css'
+
 const ConfirmationModal = ({ isOpen, onRequestClose, data, onConfirm, onCancel, actionType }) => {
   const [modalTitle, setModalTitle] = useState('');
 
